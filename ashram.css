@@ -483,7 +483,7 @@ header .fa-bars{
 }
 .blog .row{
   display: grid;
-  background-image: linear-gradient(rgb(60, 168, 235),white);
+ background-image: linear-gradient(rgb(95, 91, 91),white);
   background-attachment: fixed;
   background-size: cover;
   grid-template-columns: repeat(auto-fit,minmax(25%,1fr));
