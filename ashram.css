@@ -32,12 +32,12 @@ header{
   align-items: center;
   justify-content:space-between ;
   padding: 1rem 3%; 
-  background: rgba(0, 0, 0, 0.85);     /*#486AAE    */
+  background: #222222;     /*#486AAE    */
   z-index: 1001;
   position: fixed;
 }
 body{
-  background-color: white;
+  background-color: #FFF1DC;
 }
 
 /* tata logo */
@@ -183,14 +183,14 @@ header .fa-bars{
 
 .about{
   box-sizing: border-box;
-  background-color:white;
+  background-color: #FFF1DC;
   padding: 3rem 8%;
 }
 .about .box{    /* luffy zoro stuff*/
   display: flex;
   align-items: center;
   justify-content:space-between ;
-  background-color: rgba(107, 97, 97, 0.5);
+  background-color: rgba(107, 97, 97, 0.3);
   padding: 70px;
   border-radius:30px;
   margin-top: 7rem;
@@ -302,13 +302,13 @@ header .fa-bars{
 .services .row .box{
   text-align: center;
   color:white ;
-  background-color: rgba(107, 97, 97, 0.5);
+  background-color: rgba(107, 97, 97, 0.3);
   padding: 4rem;
   border-radius: 0.8rem;
 }
 .services .row .box:hover{
   box-shadow: 0.5rem 0.5rem 0.5rem rgba(9, 9, 9, 0.3);
-  background-color: rgba(214, 205, 205, 0.7);
+  background-color: rgba(174, 167, 167, 0.8);
 }
 .services .row .box img{
   width:300px; height:250px; 
@@ -334,7 +334,7 @@ header .fa-bars{
 /* portfolio section css here pppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp */
 .portfolio{
   box-sizing: border-box;
-  background-color: white;
+  background-color: #FFF1DC;
   padding-top: 0.5rem;
   padding-bottom: 1.5rem;
 }
@@ -348,7 +348,7 @@ header .fa-bars{
 .portfolio .row .box{
   position: relative;
   overflow: hidden;
-  background-color: rgba(107, 97, 97, 0.5);
+  background-color: rgba(107, 97, 97, 0.3);
   padding: 1rem;
   width: 400px;
   height: auto;
@@ -415,7 +415,7 @@ header .fa-bars{
   padding-left: 1.2rem;
  
   padding-right: 1.2rem;
-  background-color: white;
+  background-color: #FFF1DC;
 
 }
 .team .row::before{   /* IF I REMOVE THIS BEFORE THE CONTENT WILL START FROM TOP HERO PAGE*/
@@ -441,7 +441,7 @@ header .fa-bars{
 
 .team .team-slid .box .content{
   background: #b9afaf;
-  background-color: rgba(107, 97, 97, 0.5);
+  background-color: rgba(107, 97, 97, 0.3);
   text-align: center;
   color: white;
   padding: 4rem;
@@ -450,7 +450,7 @@ header .fa-bars{
 }
 .team .team-slid .box:hover .content{
   box-shadow: 0.5rem 0.5rem 0.5rem rgba(9, 9, 9, 0.3);
-  background-color: rgba(214, 205, 205, 0.7);
+  background-color: rgba(174, 167, 167, 0.8);
 }
 .team .team-slid .box .image img{
   border-radius: 30px;
@@ -479,11 +479,11 @@ header .fa-bars{
 /* blog section css starts here ---------------------------*/
 
 .blog{
-  background-color: white;
+  background-color: #FFF1DC;
 }
 .blog .row{
   display: grid;
- background-image: linear-gradient(rgb(95, 91, 91),white);
+  background-color: #FFF1DC;
   background-attachment: fixed;
   background-size: cover;
   grid-template-columns: repeat(auto-fit,minmax(25%,1fr));
@@ -524,28 +524,31 @@ header .fa-bars{
   padding: 3rem;
   box-sizing: border-box;
   border-radius: 0px;
-  background-color: rgba(107, 97, 97, 0.5);
-  box-shadow: 0 0.5rem 0.5rem rgba(0,0,0,0.7);
+  background-color: #F0EEED;
+  background-color: rgba(107, 97, 97, 0.3);
 }
 .blog .row .box:hover{
   box-shadow: 0.5rem 0.5rem 0.5rem rgba(9, 9, 9, 0.3);
-  background-color: rgba(214, 205, 205, 0.7);
+  background-color: rgba(174, 167, 167, 0.8);
 }
 .welcome{
   padding: 7rem 0rem;
   text-align: center;
   height: 18rem;
-  background-color:rgba(0, 0, 0, 0.8);
+  background-color:white;
 }
 
 .welcome span{
   font-size: 3.3rem;
-  color:white;
+  color:black;
 }
 
 /* blog section css completed------------------------------ */
 
 /* contact section css starts here  -------|||||||||||||*/
+.contact{
+  background-color: #FFF1DC;
+}
 .contact .heading{
   margin-bottom: 8rem;
 }
@@ -572,7 +575,7 @@ header .fa-bars{
 }
 .contact .box .content:hover{
   box-shadow: 0.5rem 0.5rem 0.5rem rgba(9, 9, 9, 0.3);
-  background-color: rgba(214, 205, 205, 0.7);
+  background-color: rgba(174, 167, 167, 0.8);
 }
 .iframe{
   display: flex;
@@ -689,7 +692,7 @@ header .fa-bars{
       font-size: 35px;
       /* margin-bottom: 40px; */
       top: 9.7vh;
-      background-color: black; /*#486AAE*/
+      background-color: #222222; /*#486AAE*/
      
       display: flex;
       justify-content: space-around;
@@ -868,7 +871,7 @@ header .fa-bars{
     grid-template-columns: repeat(auto-fit,minmax(50%,1fr));
     margin: 1.5rem;
     /* background: url("https://images.rawpixel.com/image_600/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjUzNWJhdGNoMi1teW50LTQxLmpwZw.jpg"); */
-    background-image: linear-gradient(rgb(95, 91, 91),white);
+    background-color: #FFF1DC;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
