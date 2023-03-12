@@ -535,12 +535,12 @@ header .fa-bars{
   padding: 7rem 0rem;
   text-align: center;
   height: 18rem;
-  background-color:white;
+  background-color:rgba(22, 22, 22, 0.7);
 }
 
 .welcome span{
   font-size: 3.3rem;
-  color:black;
+  color:white;
 }
 
 /* blog section css completed------------------------------ */
