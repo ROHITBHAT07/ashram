@@ -569,13 +569,13 @@ header .fa-bars{
   padding: 4rem;
   box-sizing: border-box;
   color:black ;
-  background-color: rgba(107, 97, 97, 0.5);
+  background-color: white;
   box-shadow: 0 0.5rem 0.5rem rgba(0,0,0,0.7);
 
 }
 .contact .box .content:hover{
   box-shadow: 0.5rem 0.5rem 0.5rem rgba(9, 9, 9, 0.3);
-  background-color: rgba(174, 167, 167, 0.8);
+  background-color: rgba(211, 211, 211, 0.5);
 }
 .iframe{
   display: flex;
